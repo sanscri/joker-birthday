@@ -1,0 +1,17 @@
+{
+  "name": "joker-birthday",
+  "homepage": "https://sanscri.github.io/joker-birthday",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url /joker-birthday/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanscri/joker-birthday.git"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.10.2",
+    "parcel": "latest"
+  }
+}

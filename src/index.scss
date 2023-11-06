@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'Black Clover Font', sans-serif;
 }
   
 
@@ -56,18 +55,20 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  top: -initial;
 }
 .text h1{
-  font-size: 50px;
+  font-size: 54px;
+  font-family: 'Black Clover Display', sans-serif;
 }
 
 .text p{
   font-size: 30px;
+  font-family: 'Stibold', sans-serif;
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .card {
-    flex-direction: column;
+    flex-direction: column !important;
+    height: 60%;
   }
  }
 
@@ -318,4 +319,3 @@ body {
   left: 150px;
   top: 10px;
 }
-
